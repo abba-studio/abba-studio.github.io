@@ -794,8 +794,6 @@ h6 {
 #banner .section-heading:before {
     content: "";
     display: block;
-    width: 30px;
-    height: 5px;
     margin-top: 30px;
 }
 
@@ -2330,3 +2328,17 @@ blockquote {
 
 
 
+
+/* Default style for desktops and larger screens */
+#abba-logo {
+    position: absolute;
+    left: 5%;
+    top: 25%;
+  }
+  
+  /* Style for mobile phones */
+  @media (max-width: 600px) {
+    #abba-logo {
+      top: -10%;
+    }
+  }
