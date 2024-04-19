@@ -2333,12 +2333,12 @@ blockquote {
 #abba-logo {
     position: absolute;
     left: 5%;
-    top: 25%;
+    top: 5%;
   }
   
   /* Style for mobile phones */
   @media (max-width: 600px) {
     #abba-logo {
-      top: -10%;
+      top: 0%;
     }
   }
